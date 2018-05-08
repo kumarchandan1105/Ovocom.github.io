@@ -173,9 +173,6 @@ position: relative;
 text-transform: uppercase;
 }
 p.section-title-white{color:#fff;}
-@media only screen and (max-width:480px) { 
-.section-title  h1  {font-size:30px;}
-}
 .section-title span{
 background: #f9461d none repeat scroll 0 0;
 display: block;
@@ -190,13 +187,7 @@ padding: 0 10px;
 width: 60%;
 margin: auto;	
 }
-@media only screen and (max-width:480px) { 
-.section-title  p{
-padding: 0 10px;
-width: 90%;
-margin: auto;	
-}
-}
+
 /*END SECTION TITLE DESIGN*/
 /*START SCROLL TO TOP*/
 .topcontrol {
@@ -260,16 +251,12 @@ overflow: hidden;
 .navbar-default.menu-shrink .navbar-brand img { max-width: 170px; }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form { border-color: #fff }
-@media only screen and (max-width:768px) { 
-.navbar-brand img {margin-left:10px; }
-}
+
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
 border-color: #222;
 margin-top: 0px;
 }
-@media only screen and (max-width:480px) { 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {margin-top: 10px;}
-}
+
 .menu-top li a {
     color: #fff !important;
     font-size: 16px;
@@ -277,29 +264,14 @@ margin-top: 0px;
     text-transform: capitalize;
 }
 .menu-top li a:hover { color: #fff!important;}
-@media only screen and (max-width:768px) { 
-    .navbar-default .navbar-nav > li > a {
-        margin-top: 10px;
-        padding: 8px;
-    }
-}
-@media only screen and (max-width:480px) { 
-    .menu-top { background-color: #222;position: fixed;
-overflow: hidden; }
-    .navbar-default .navbar-nav > li > a { color: #fff  !important }
-}
+
 .navbar-default.menu-shrink {
     background-color: #222;
     box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
     padding: 10px 0;
     width: 100%;
 }
-@media only screen and (max-width:480px) { 
-    .menu-top {
-        color: #fff !important;
-        margin-left: 0px;
-    }
-}
+
 .scrollable-menu {
     height: auto;
     max-height: 200px;
@@ -332,9 +304,7 @@ overflow: hidden; }
   top: 0;
 }
 .hero-text{padding-top:250px;}
-@media only screen and (max-width:480px) { 
-.hero-text{padding-top:250px;}
-}
+
 .hero-text img{margin-bottom:30px}	
 .hero-text h1{	
 color: #fff;
@@ -342,20 +312,11 @@ font-size: 48px;
 font-weight: 900;
 text-transform: uppercase;
 }
-@media only screen and (max-width:768px) { 
-.hero-text h1{font-size:40px;}
-}
 
-@media only screen and (max-width:320px) { 
-.slider-info h1{font-size:30px;}
-}
 .hero-text p{
 color: #fff;
 font-size: 24px;
 margin-bottom: 25px;	
-}
-@media only screen and (max-width:480px) { 
-.hero-text p {width: 100%;}
 }
 .btn-home-bg{
 background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
@@ -438,9 +399,7 @@ width: 100px;
     margin-top: 10px;
     position: relative;
 }
-@media only screen and (max-width:768px){
-.serviceBox{ margin-bottom:40px; }
-}
+
 .serviceBox:after{
     content: "";
     width: 100%;
@@ -491,9 +450,7 @@ text-transform: uppercase;
     }
     51%{ opacity: 1; }
 }
-@media only screen and (max-width:990px){
-    .serviceBox{ margin-bottom: 40px; }
-}
+
 /*
 * ----------------------------------------------------------------------------------------
 * 04.END ABOUT DESIGN
@@ -607,9 +564,7 @@ position: absolute;
 text-align: center;
 width: 35px;
 }
-@media only screen and (max-width: 990px){
-    .our-team{ margin-bottom: 30px; }
-}
+
 .owl-theme .owl-controls {
     margin-top: 50px;
     text-align: center;
@@ -665,18 +620,6 @@ line-height: 50px;
 margin: 0 auto 30px;
 padding-top: 160px;
 }
-@media only screen and (max-width:480px) { 
-.promotion_content p{
-font-size: 30px;
-padding-top: 120px;
-}
-}
-@media only screen and (max-width:360px) { 
-.promotion_content p{padding-top: 80px;}
-}
-@media only screen and (max-width:320px) { 
-.promotion_content p{padding-top: 60px;}
-}
 .btn-promotion-bg {
 background: #f9461d none repeat scroll 0 0;
 border: 1px solid #f9461d;
@@ -714,9 +657,6 @@ box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 padding: 30px;
 margin-top:50px;
 transition: all 0.3s ease 0s;	
-}
-@media only screen and (max-width:480px){
-.single_service{ margin-bottom:60px; }
 }
 .single_service:hover{
 background: #fff none repeat scroll 0 0;
@@ -870,9 +810,7 @@ padding: 8px 40px;
 text-transform: uppercase;
 transition: all 0.4s ease 0s;
 }
-@media only screen and (max-width:480px) { 
-    .portfolio-filters li { padding: 8px 24px;margin-bottom: 10px }
-}
+
 .portfolio-filters li:hover {
     color: #fff;
 	background:#f9461d;
@@ -976,9 +914,7 @@ text-transform: capitalize;
 .box .icon li a:hover{
     border-color: transparent;
 }
-@media only screen and (max-width:990px){
-    .box{ margin-bottom: 30px; }
-}
+
 
 /*
 * ----------------------------------------------------------------------------------------
@@ -1078,9 +1014,7 @@ text-align: center;
 transition: all 0.3s ease-in-out 0s;
 z-index: 1;
 }
-@media only screen and (max-width:480px){
-.pricingTable{ margin-bottom:60px; }
-}
+
 .pricingTable:hover{ color: #fff; }
 .pricingTable:after{
     content: "";
@@ -1150,12 +1084,7 @@ line-height: 32px;
 .pricingTable .pricing-content li{
     line-height: 40px;
 }
-@media only screen and (max-width: 990px){
-    .pricingTable{ margin-bottom: 30px; }
-}
-@media only screen and (max-width: 767px){
-    .pricingTable{ margin-bottom: 50px; }
-}
+
 /*
  * ----------------------------------------------------------------------------------------
  * 11.END PRICING DESIGN
@@ -1180,14 +1109,6 @@ line-height: 32px;
     font-weight: 700;
     margin-bottom: 30px;
     text-transform: uppercase;
-}
-@media only screen and (max-width:768px) { 
-.newsletter-title {
-font-size: 22px;
-margin-bottom: 30px;
-margin-top: 0;
-text-align: center;
-}
 }
 .newsletter input {
 background: #fff none repeat scroll 0 0;
@@ -1226,18 +1147,14 @@ padding: 8px 20px;
 text-transform: uppercase;
 transition: all 0.2s ease 0s;
 }
-@media only screen and (max-width:480px) { 
-.btn-newsletter-bg {padding: 7px 20px;}
-}
+
 .btn-newsletter-bg:hover,
 .btn-newsletter-bg:focus {
     background: #333;
     color: #fff;
     border: 2px solid #333;
 }
-@media only screen and (max-width:480px) { 
-.btn-newsletter-bg {margin-left:0px;  }
-}
+
 /*
 * ----------------------------------------------------------------------------------------
 * 12.END NEWSLETTER DESIGN
@@ -1325,12 +1242,6 @@ font-weight: 700;
 margin-bottom: 30px;
 text-transform: uppercase;
 }
-@media only screen and (max-width:768px) { 
-    .buy_now_title { font-size: 22px }
-}
-@media only screen and (max-width:360px) { 
-    .buy_now_title { font-size: 15px }
-}
 .btn-promotion-bg {
 background: #f9461d none repeat scroll 0 0;
 border: 1px solid #f9461d;
@@ -1384,30 +1295,16 @@ padding: 60px 30px;
 color: #f2f2f2;
 font-size: 32px;
 }
-@media only screen and (max-width:480px) { 
-.address h2{font-size: 20px;}
-}
 .address h1{
 color: #f2f2f2;
 font-size: 60px;
 font-weight: 800;
-}
-@media only screen and (max-width:480px) { 
-.address h1{font-size: 40px;}
-}
-@media only screen and (max-width:414px) { 
-.address h1{font-size: 26px;}
 }
 .address h3{
 color: #f2f2f2;
 font-size: 40px;
 line-height: 58px;
 margin-bottom: 0;
-}
-@media only screen and (max-width:480px) { 
-.address h3{
-font-size: 30px;
-line-height: 40px;}
 }
 .footer_copyright{padding-top:0px;}
 .footer_copyright p{
@@ -1434,12 +1331,6 @@ text-transform: capitalize;
     -webkit-transition: all 0.2s ease 0s;
     transition: all 0.2s ease 0s;
     width: 50px;
-}
-@media only screen and (max-width:768px) { 
-    .footer_social ul li a { font-size: 12px }
-}
-@media only screen and (max-width:480px) { 
-    .footer_social ul li a { font-size: 16px }
 }
 .footer_social ul li a:hover {
 background:#fff;
@@ -1498,9 +1389,7 @@ color: #333;}
 	width:58%;
 	margin: 0 auto;
 }
-@media only screen and (max-width:768px) { 
-.nav-tabs {width:90%;}
-}
+
 .nav-tabs > li.active > a{
 	background: #f9461d!important;
 	color: #fff!important;
@@ -1521,9 +1410,6 @@ font-weight: 600;
 margin-right: 10px;
 padding: 10px 25px;
 text-transform: uppercase;
-}
-@media only screen and (max-width:480px) { 
-.nav-tabs > li > a{margin-bottom:10px;}
 }
 .nav-tabs > li > a:hover,
 .nav-tabs > li.active > a:hover{
@@ -1566,10 +1452,139 @@ text-transform: uppercase;
 	font-size: 30px;
 	float: right;
 }
-
+    .home_parallax.other{
+        height: 520px;
+        overflow: hidden;
+    }
+    h1.hero-text-2{
+        font-size: 40px;
+        text-align: left;
+    }
+   .breadcrumbs-list li:not(:last-child):after {
+        content: '/';
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        color: #fff;
+        margin-left: 10px;
+    }
+    .breadcrumbs-list li a{
+        color: #fff;
+    }
+    .breadcrumbs-list li:not(:last-child) {
+        margin-right: 10px;
+    }
+    .breadcrumbs-list li {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .breadcrumbs-list {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .d-flex {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
 /*
 * ----------------------------------------------------------------------------------------
 * 0.END MENU DESIGN
 * ----------------------------------------------------------------------------------------
 */
 .effect-bubba{margin: 0 15px 20px;}
+
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* MEDIA QUERY START HERE
+* ----------------------------------------------------------------------------------------
+*/
+@media only screen and (max-width:990px){
+    .serviceBox{ margin-bottom: 40px; }
+    .our-team{ margin-bottom: 30px; }
+    .box{ margin-bottom: 30px; }
+    .pricingTable{ margin-bottom: 30px; }
+}
+
+@media only screen and (max-width:768px) { 
+    .navbar-brand img {margin-left:10px; }
+    .navbar-default .navbar-nav > li > a {
+        margin-top: 10px;
+        padding: 8px;
+    }
+    .hero-text h1{font-size:40px;}
+    .serviceBox{ margin-bottom:40px; }
+    .newsletter-title {
+        font-size: 22px;
+        margin-bottom: 30px;
+        margin-top: 0;
+        text-align: center;}
+    .buy_now_title { font-size: 22px }
+    .footer_social ul li a { font-size: 12px }
+    .nav-tabs {width:90%;}  
+}
+
+@media only screen and (max-width: 767px){
+    .pricingTable{ margin-bottom: 50px; }
+}
+
+@media only screen and (max-width:480px) { 
+    .section-title  h1  {font-size:30px;}
+    .section-title  p{
+        padding: 0 10px;
+        width: 90%;
+        margin: auto;   
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {margin-top: 10px;}
+    .menu-top { background-color: #222;position: fixed;
+overflow: hidden; }
+    .navbar-default .navbar-nav > li > a { color: #fff  !important }
+    .menu-top {
+        color: #fff !important;
+        margin-left: 0px;
+    }
+    .hero-text{padding-top:250px;}
+    .hero-text p {width: 100%;}
+    .promotion_content p{
+    font-size: 30px;
+    padding-top: 120px;
+    }
+    .single_service{ margin-bottom:60px; }
+    .portfolio-filters li { padding: 8px 24px;margin-bottom: 10px }
+    .pricingTable{ margin-bottom:60px; }
+    .btn-newsletter-bg {padding: 7px 20px;}
+    .btn-newsletter-bg {margin-left:0px;  }
+    .address h2{font-size: 20px;}
+    .address h1{font-size: 40px;}
+    .address h3{
+    font-size: 30px;
+    line-height: 40px;}
+    .footer_social ul li a { font-size: 16px }
+    .nav-tabs > li > a{margin-bottom:10px;}
+}
+
+@media only screen and (max-width:414px) { 
+    .address h1{font-size: 26px;}
+}
+
+@media only screen and (max-width:360px) { 
+    .promotion_content p{padding-top: 80px;}
+    .buy_now_title { font-size: 15px }
+}
+
+@media only screen and (max-width:320px) { 
+    .slider-info h1{font-size:30px;}
+    .promotion_content p{padding-top: 60px;}
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* MEDIA QUERY END HERE
+* ----------------------------------------------------------------------------------------
+*/
