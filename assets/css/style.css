@@ -1168,17 +1168,18 @@ line-height: 32px;
 * ----------------------------------------------------------------------------------------
 */
 .newsletter_section{
-background-image: url(assets/img/bg/register-cover.jpg); 
-background-size:cover; 
-background-position: center center;
-padding:100px 0;
+    /*background-image: url(../img/bg/register-cover.jpg);*/
+    background: #ecf0f6; 
+    background-size:cover; 
+    background-position: center center;
+    padding:100px 0;
 }
 
 .newsletter-title {
-color: #fff;
-font-weight: 700;
-margin-bottom: 30px;
-text-transform: uppercase;
+    color: #222;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
 }
 @media only screen and (max-width:768px) { 
 .newsletter-title {
@@ -1230,9 +1231,9 @@ transition: all 0.2s ease 0s;
 }
 .btn-newsletter-bg:hover,
 .btn-newsletter-bg:focus {
-    background: #fff;
-    color: #333;
-    border: 2px solid #fff;
+    background: #333;
+    color: #fff;
+    border: 2px solid #333;
 }
 @media only screen and (max-width:480px) { 
 .btn-newsletter-bg {margin-left:0px;  }
@@ -1381,7 +1382,7 @@ padding: 60px 30px;
 }
 .address h2{
 color: #f2f2f2;
-font-size: 40px;
+font-size: 32px;
 }
 @media only screen and (max-width:480px) { 
 .address h2{font-size: 20px;}
