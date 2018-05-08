@@ -338,7 +338,7 @@ overflow: hidden; }
 .hero-text img{margin-bottom:30px}	
 .hero-text h1{	
 color: #fff;
-font-size: 70px;
+font-size: 48px;
 font-weight: 900;
 text-transform: uppercase;
 }
@@ -1168,7 +1168,9 @@ line-height: 32px;
 * ----------------------------------------------------------------------------------------
 */
 .newsletter_section{
-background:#222;
+background-image: url(assets/img/bg/register-cover.jpg); 
+background-size:cover; 
+background-position: center center;
 padding:100px 0;
 }
 
