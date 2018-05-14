@@ -184,7 +184,7 @@ width: 100px;
 .section-title-white{color:#fff;position:relative;}
 .section-title  p{
 padding: 0 10px;
-width: 60%;
+width: 100%;
 margin: auto;	
 }
 
@@ -260,8 +260,8 @@ margin-top: 0px;
 .menu-top li a {
     color: #fff !important;
     font-size: 16px;
-    font-weight: 400;
-    text-transform: capitalize;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 .menu-top li a:hover { color: #fff!important;}
 
@@ -829,6 +829,9 @@ border: 1px solid #f9461d;
     perspective: 800px;
     position: relative;
 	margin-bottom:30px;
+    border: 1px solid #ddd;
+    padding: 18px 0;
+    box-shadow: 0px 0px 4px 0px RGBA(0, 0, 0, 0.11);
 }
 .box:after{
     content: "";
@@ -850,8 +853,10 @@ border: 1px solid #f9461d;
     opacity: 1;
 }
 .box img{
-    width: 100%;
+    width: auto;
     height: auto;
+    margin: auto;
+    display: block;
 }
 .box .box-content{
     width: 100%;
@@ -914,8 +919,10 @@ text-transform: capitalize;
 .box .icon li a:hover{
     border-color: transparent;
 }
-
-
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #f9461d !important;
+    background-color: transparent;
+}
 /*
 * ----------------------------------------------------------------------------------------
 * 09.END PROTFOLIO DESIGN
@@ -1490,6 +1497,29 @@ text-transform: uppercase;
         display: -webkit-box !important;
         display: -ms-flexbox !important;
         display: flex !important;
+    }
+    .mt-60 {
+        margin-top: 60px !important;
+    }
+    .bg-silver-light {
+       background-color: #F3F3F5;
+       border: 1px solid #eeeeee;
+       padding: 50px 0;
+       text-align: center;
+       height: 250px;
+    }
+    .bg-silver-light i{
+        font-size: 36px;
+        color: #f9461d;
+    }
+    .bg-silver-light h4{
+        margin-bottom: 0;
+        padding: 10px 0 3px;
+        font-weight: 600;
+    }
+    #map {
+      height: 450px;
+      width: 100%;
     }
 /*
 * ----------------------------------------------------------------------------------------
