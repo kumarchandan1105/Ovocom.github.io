@@ -10,7 +10,8 @@
 		<!-- SITE TITLE -->
 		<title>Company As a Service | Contact Us</title>			
 		<!-- Latest Bootstrap min CSS -->
-		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">		
+		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+		<link rel="icon" href="assets/img/favicon.png" type="image/gif" sizes="16x16">			
 		<!-- Google Font -->
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic"  rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,500,700,800,900" rel="stylesheet" type="text/css">
@@ -84,10 +85,10 @@
 						<h1 class="hero-text-2">Contact Us</h1>
 						<ul class="breadcrumbs-list d-flex">
 	                        <li>
-	                            <a href="#">Home</a>
+	                            <a href="index.html">Home</a>
 	                        </li>
 	                        <li>
-	                            <a href="#">Contact Us</a>
+	                            <a href="contact-us.html">Contact Us</a>
 	                        </li>
                        </ul>
 					</div>
@@ -97,7 +98,7 @@
 		</section>
 		<!-- END  HOME DESIGN -->
 		<!-- START CONTACT -->
-		<section id="contact" class="contact_us section-padding" data-aos="slide-up">
+		<section id="contact" class="contact_us section-padding" data-aos="fade-up">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -135,38 +136,68 @@
 				</div><!-- END ROW -->
 				<div class="row mt-60">
 		          <div class="col-sm-12 col-md-3">
-		            <div class="bg-silver-light">
+		            <div class="bg-silver-light" data-aos="flip-left">
 		              <i class="fa fa-phone"></i>
 		              <h4>Call Us</h4>
 		              <p>Phone: +31 20 8080 486</p>
 		            </div>
 		          </div>
 		          <div class="col-sm-12 col-md-3">
-		            <div class="bg-silver-light">
+		            <div class="bg-silver-light" data-aos="flip-left">
 		              <i class="fa fa-map-marker"></i>
 		              <h4>Address</h4>
 		              <p>Wielingenstraat 6 1441 ZR Purmerend</p>
 		            </div>
 		          </div>
 		          <div class="col-sm-12 col-md-3">
-		            <div class="bg-silver-light">
+		            <div class="bg-silver-light" data-aos="flip-left">
 		              <i class="fa fa-envelope"></i>
 		              <h4>Email</h4>
 		              <p>info@companyasservice.com</p>
 		            </div>
 		          </div>
 		          <div class="col-sm-12 col-md-3">
-		            <div class="bg-silver-light">
+		            <div class="bg-silver-light" data-aos="flip-left">
 		              <i class="fa fa-fax"></i>
 		              <h4>Fax</h4>
 		              <p>(+31) 20 8080 486</p>
 		            </div>
 		          </div>
-        	</div>
+        		</div>
+        		<div class="row mt-60">
+		          <div class="col-sm-12 col-md-3">
+		            <div class="bg-silver-light" data-aos="flip-right">
+		              <i class="fa fa-phone"></i>
+		              <h4>Call Us</h4>
+		              <p>Phone: +91 90290 98200</p>
+		            </div>
+		          </div>
+		          <div class="col-sm-12 col-md-3">
+		            <div class="bg-silver-light" data-aos="flip-right">
+		              <i class="fa fa-map-marker"></i>
+		              <h4>Address</h4>
+		              <p>A 602 , shaheen chamber, dawood baug road, andheri west</p>
+		            </div>
+		          </div>
+		          <div class="col-sm-12 col-md-3">
+		            <div class="bg-silver-light" data-aos="flip-right">
+		              <i class="fa fa-envelope"></i>
+		              <h4>Email</h4>
+		              <p>info@companyasservice.com</p>
+		            </div>
+		          </div>
+		          <div class="col-sm-12 col-md-3">
+		            <div class="bg-silver-light" data-aos="flip-right">
+		              <i class="fa fa-fax"></i>
+		              <h4>Fax</h4>
+		              <p>(+31) 20 8080 486</p>
+		            </div>
+		          </div>
+        		</div>
 			</div><!-- END CONTAINER -->
 		</section>
 		<!-- END CONTACT -->
-		<div id="map"></div>
+		<div id="map_div" data-aos="fade-up"></div>
 
 		<!-- START NEWSLETTER -->
 		<section  class="newsletter_section" data-aos="flip-up">
@@ -250,58 +281,71 @@
 		<script src='https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js'></script>
 		<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBHJxzPHD_egYnhxntqcvfem35YRjruzAg&amp;amp;callback='></script>
 		<script type="text/javascript">
-
-		  $( document ).ready( function() {
-
-		  
-		  //Google Maps JS
-		  //Set Map
-		  function initialize() {
-		      var myLatlng = new google.maps.LatLng(52.504796,4.955954);
-		      var imagePath = 'assets/img/map.png'
-		      var mapOptions = {
-		        zoom: 11,
-		        center: myLatlng,
-		        mapTypeId: google.maps.MapTypeId.ROADMAP
-		      }
-
-		    var map = new google.maps.Map(document.getElementById('map'), mapOptions);
-		    //Callout Content
-		    var contentString = 'Some address here..';
-		    //Set window width + content
-		    var infowindow = new google.maps.InfoWindow({
-		      content: contentString,
-		      maxWidth: 500
-		    });
-
-		    //Add Marker
-		    var marker = new google.maps.Marker({
-		      position: myLatlng,
-		      map: map,
-		      icon: imagePath,
-		      title: 'image title'
-		    });
-
-		    google.maps.event.addListener(marker, 'click', function() {
-		      infowindow.open(map,marker);
-		    });
-
-		    //Resize Function
-		    google.maps.event.addDomListener(window, "resize", function() {
-		      var center = map.getCenter();
-		      google.maps.event.trigger(map, "resize");
-		      map.setCenter(center);
-		    });
-		  }
-
-		  google.maps.event.addDomListener(window, 'load', initialize);
-
-		});</script>
-		<script type="text/javascript">
 			AOS.init({
 			  duration: 1200,
 			})
 		</script>	
-		
+		<script type="text/javascript">
+			
+			/*
+			 * create map
+			 */
+			var map = new google.maps.Map(document.getElementById("map_div"), {
+			  center: new google.maps.LatLng(52.504796, 4.955954),
+			  zoom: 2.7,
+			  mapTypeId: google.maps.MapTypeId.ROADMAP
+			});
+
+			/*
+			 * use google maps api built-in mechanism to attach dom events
+			 */
+			google.maps.event.addDomListener(window, "load", function () {
+			  
+			  /*
+			   * create infowindow (which will be used by markers)
+			   */
+			  var infoWindow = new google.maps.InfoWindow();
+
+			  /*
+			   * marker creater function (acts as a closure for html parameter)
+			   */
+			  function createMarker(options, html) {
+			    var marker = new google.maps.Marker(options);
+			    if (html) {
+			      google.maps.event.addListener(marker, "click", function () {
+			        infoWindow.setContent(html);
+			        infoWindow.open(options.map, this);
+			      });
+			    }
+			    return marker;
+			  }
+
+			  /*
+			   * add markers to map
+			   */
+			   /*var marker0 = createMarker({
+			    position: new google.maps.LatLng(19.1268384, 72.8425353),
+			    map: map,
+			    icon: "https://1.bp.blogspot.com/_GZzKwf6g1o8/S6xwK6CSghI/AAAAAAAAA98/_iA3r4Ehclk/s1600/marker-green.png"
+			  }, "<h1>Marker 0</h1><p>This is the home marker.</p>");
+				*/
+			  var marker1 = createMarker({
+			    position: new google.maps.LatLng(52.504796, 4.9559542),
+			    map: map
+			  }, "<h1>Amsterdam</h1><p>Wielingenstraat 6 1441 ZR Purmerend</p>");
+
+			  var marker2 = createMarker({
+			    position: new google.maps.LatLng(19.1268384, 72.8425353),
+			    map: map
+			  }, "<h1>Mumbai</h1><p>A 602 , shaheen chamber, dawood baug road, andheri west</p>");
+			});
+
+			// listen for the window resize event & trigger Google Maps to update too
+			window.onresize = function() {
+			  var currCenter = map.getCenter();
+			  google.maps.event.trigger(map, 'resize');
+			  map.setCenter(currCenter);
+			};
+		</script>
     </body>
 </html>
