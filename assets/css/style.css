@@ -2339,6 +2339,8 @@ span.sec-title {
 }
 .bg15 {
     background-image: url(../img/bg/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .bg-half.bg-half-large-padding {
     padding: 90px;
