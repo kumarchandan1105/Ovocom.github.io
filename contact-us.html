@@ -89,6 +89,7 @@
 	                        <li>
 	                            <a href="index.html">Home</a>
 	                        </li>
+	                        <li>/</li>
 	                        <li>
 	                            <a href="contact-us.html">Contact Us</a>
 	                        </li>
@@ -105,9 +106,9 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="section-title text-center">
-							<h1>Get in touch</h1>
+							<h1>GET IN TOUCH WITH CAAS</h1>
 							<span></span>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elitsed.</p>
+							<p>We're ready to lead you into the future of software development.</p>
 						</div>
 					</div>
 				</div>
@@ -116,17 +117,24 @@
 						<div class="contact">
 							<form id="contact-form" method="post" enctype="multipart/form-data">
 								<div class="row">
-									<div class="form-group col-md-4">
+									<div class="form-group col-md-6">
 										<input type="text" name="name" class="form-control" placeholder="Name" required="required">
 									</div>
-									<div class="form-group col-md-4">
+									<div class="form-group col-md-6">
 										<input type="email" name="email" class="form-control" placeholder="Email" required="required">
 									</div>
-									<div class="form-group col-md-4">
+									<div class="form-group col-md-6">
 										<input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
 									</div>
+									 <div class="form-group col-md-6">
+			                 			<input type="file" id="files" class="hidden"/>
+										<label for="files" class="files">Upload Your File</label>
+		              				</div>
 									<div class="form-group col-md-12">
 										<textarea rows="6" name="message" class="form-control" placeholder="Your Message" required="required"></textarea>
+									</div>
+									<div class="form-group col-md-12">
+										<div class="g-recaptcha" data-sitekey="6LcUCVwUAAAAALAq6QTg48dZa0u-V97xiFfMhFGq"></div>
 									</div>
 									<div class="col-md-12 text-center">
 										<button type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-lg btn-contact-bg" title="Submit Your Message!">Send Message</button>
@@ -216,11 +224,7 @@
 									<span class="input-group-btn">
 										<button type="submit" name="subscribe" class="btn-newsletter-bg">Subscribe!</button>
 									</span>
-								</div>
-								<div id="mce-responses">
-									<div class="response" id="mce-error-response" style="display:none"></div>
-									<div class="response" id="mce-success-response" style="display:none"></div>
-								</div>
+								</div>								
 							</form>
 						</div>
 					</div><!-- END COL -->
@@ -280,6 +284,7 @@
 		<!-- scripts js -->
 		<script src='https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js'></script>
 		<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBHJxzPHD_egYnhxntqcvfem35YRjruzAg&amp;amp;callback='></script>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 		<script type="text/javascript">
 			AOS.init({
 			  duration: 1200,
